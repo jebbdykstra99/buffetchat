@@ -3789,7 +3789,7 @@
     return !!(storiesCfg().enabled);
   }
   function storiesComposePlaceholder() {
-    return (site && site.composePlaceholder) || "A tool with a receipt — not an oracle.";
+    return (site && site.composePlaceholder) || "Where are you loading a plate?";
   }
   function storiesMaxBytes() {
     var n = parseInt(storiesCfg().maxBytes, 10);
@@ -4575,8 +4575,8 @@
           el.hidden = false;
           el.innerHTML =
             '<button type="button" class="stories-item is-add" data-story-add="1" aria-label="Add story">' +
-              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'gaichat') + '">' +
-              escapeHtml(String(SITE_ID || 'gaichat').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
+              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'buffet') + '">' +
+              escapeHtml(String(SITE_ID || 'buffet').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
               '<span class="stories-add-badge">+</span></span>' +
               '<span class="stories-label">Add story</span></button>';
         },
@@ -4588,8 +4588,8 @@
               id: s.id || ('demo-' + i),
               siteId: SITE_ID,
               authorUid: s.authorUid || ('demo-' + i),
-              name: s.name || (site && site.name) || 'gaichat',
-              handle: s.handle || SITE_ID || 'gaichat',
+              name: s.name || (site && site.name) || 'buffetchat',
+              handle: s.handle || SITE_ID || 'buffet',
               type: s.type || 'text',
               text: s.text || '',
               mediaUrl: s.mediaUrl || '',

@@ -1,20 +1,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #eef6f3;
-  --surface:          #f7fbf9;
-  --nav-bg:          #12151c;
-  --nav-text:     #9bb0c0;
-  --nav-hover:     #d5e2ea;
-  --nav-active:     #f4f8fb;
-  --text:          #12201b;
-  --text-muted:     #4a5d6c;
-  --text-light:     #6d8292;
-  --accent:          #3d9b7a;
-  --accent-dark:     #2f7d62;
-  --teal:          #2d6b5a;
-  --silver:          #b8c5cf;
-  --border:          #c9d5de;
+  --bg:          #141210;
+  --surface:          #1e1a16;
+  --nav-bg:          #0a0806;
+  --nav-text:     #c4a882;
+  --nav-hover:     #f7ecd8;
+  --nav-active:     #f7ecd8;
+  --text:          #f7ecd8;
+  --text-muted:     #c4a882;
+  --text-light:     #8a7358;
+  --accent:          #e8a317;
+  --accent-dark:     #c4860f;
+  --teal:          #c45c26;
+  --silver:          #d4c4a8;
+  --border:          #3a3228;
   --nav-w:          275px;
   --right-w:          330px;
   --ui:          Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -56,7 +56,7 @@ body {
   top: 0;
   z-index: 5;
   background: var(--nav-bg);
-  border-bottom: 1px solid rgba(61, 155, 122, 0.32);
+  border-bottom: 1px solid rgba(232, 163, 23, 0.32);
 }
 .sidebar-search-btn {
   position: absolute;
@@ -70,7 +70,7 @@ body {
 .brand-mark { display: inline-block; }
 .brand-icon {
   display: block; width: 44px; height: 44px; margin: 0 auto 0.55rem;
-  border: 1px solid rgba(61, 155, 122, 0.5); border-radius: 10px;
+  border: 1px solid rgba(232, 163, 23, 0.5); border-radius: 10px;
 }
 .brand-title {
   font-family: var(--display);
@@ -220,7 +220,7 @@ body {
 .right-panel.is-overlaying { overflow: hidden; }
 .right-panel-header {
   padding: 3.8rem 1.4rem 1rem;
-  border-bottom: 1px solid rgba(61, 155, 122, 0.32);
+  border-bottom: 1px solid rgba(232, 163, 23, 0.32);
   flex-shrink: 0;
 }
 .right-panel-kicker {
@@ -305,7 +305,7 @@ a.news-item:hover { background: rgba(255,255,255,0.07); }
   font-weight: 650;
   color: #f4f8fb;
   background: var(--accent);
-  border: 1px solid rgba(61, 155, 122, 0.45);
+  border: 1px solid rgba(232, 163, 23, 0.45);
   border-radius: 999px;
   padding: 0.48rem 0.9rem;
 }
