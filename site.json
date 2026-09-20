@@ -1,0 +1,786 @@
+{
+  "siteId": "buffet",
+  "redditSr": "buffetchat",
+  "name": "buffetchat",
+  "domain": "buffetchat.com",
+  "tagline": "The plate never ends.",
+  "composePlaceholder": "Where are you loading a plate?",
+  "earlyWelcome": true,
+  "dms": true,
+  "preview": true,
+  "robots": "noindex,nofollow",
+  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to post the first plate. Guest can browse only. Price bands are illustrative stubs, not live menus.",
+  "theme": {
+    "bg": "#141210",
+    "surface": "#1e1a16",
+    "nav-bg": "#0a0806",
+    "nav-text": "#c4a882",
+    "nav-hover": "#f7ecd8",
+    "nav-active": "#f7ecd8",
+    "text": "#f7ecd8",
+    "text-muted": "#c4a882",
+    "text-light": "#8a7358",
+    "accent": "#e8a317",
+    "accent-dark": "#c4860f",
+    "teal": "#c45c26",
+    "silver": "#d4c4a8",
+    "border": "#3a3228",
+    "avatarColors": [
+      "#e8a317",
+      "#c4860f",
+      "#c45c26",
+      "#8b4513",
+      "#4a3020",
+      "#d4a574"
+    ]
+  },
+  "trends": [
+    {
+      "tag": "Vegas",
+      "headline": "Crab-leg wing loyalty test",
+      "snippet": "Dummy Strip chatter \u2014 not a live menu.",
+      "meta": "Nest: vegas"
+    },
+    {
+      "tag": "Tokyo",
+      "headline": "Hotel breakfast as jet-lag cure",
+      "snippet": "Illustrative JP price bands only.",
+      "meta": "Nest: tokyo"
+    },
+    {
+      "tag": "NYC",
+      "headline": "Carve station theater",
+      "snippet": "Midtown vs boroughs \u2014 sample talk.",
+      "meta": "Nest: nyc"
+    },
+    {
+      "tag": "Dubai",
+      "headline": "Friday brunch ritual",
+      "snippet": "Preview room. Not a reservation feed.",
+      "meta": "Nest: dubai"
+    },
+    {
+      "tag": "Bangkok",
+      "headline": "Riverside hotel spread",
+      "snippet": "Dummy TH price hints.",
+      "meta": "Nest: bangkok"
+    },
+    {
+      "tag": "London",
+      "headline": "Sunday carvery loyalty",
+      "snippet": "Illustrative UK bands only.",
+      "meta": "Nest: london"
+    }
+  ],
+  "places": [
+    {
+      "tag": "City",
+      "title": "Vegas",
+      "snippet": "Strip and off-Strip plate loading."
+    },
+    {
+      "tag": "City",
+      "title": "Tokyo",
+      "snippet": "Hotel and depachika buffets."
+    },
+    {
+      "tag": "City",
+      "title": "NYC",
+      "snippet": "Carve stations and borough value."
+    },
+    {
+      "tag": "City",
+      "title": "Dubai",
+      "snippet": "Friday brunch energy."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Price",
+      "title": "Price bands (illustrative)",
+      "snippet": "Not live menus \u2014 stubs only."
+    },
+    {
+      "tag": "Seafood",
+      "title": "Crab & raw bars",
+      "snippet": "Vegas seafood nest energy."
+    },
+    {
+      "tag": "Brunch",
+      "title": "Weekend spreads",
+      "snippet": "Mimosas optional."
+    },
+    {
+      "tag": "Travel",
+      "title": "Hotel breakfasts",
+      "snippet": "Jet-lag salvation worldwide."
+    }
+  ],
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seed": [
+    {
+      "id": "p1",
+      "name": "Plate Loader",
+      "handle": "plateloader",
+      "text": "Second pass on the crab wing. Vegas seafood nest. Dummy plate \u2014 illustrative price only.",
+      "hours": 2,
+      "likes": 120,
+      "replies": 18,
+      "followed": true,
+      "nestSlug": "vegas-seafood"
+    },
+    {
+      "id": "p2",
+      "name": "Carve Watch",
+      "handle": "carvewatch",
+      "text": "Midtown carve station is theater. NYC nest stub.",
+      "hours": 4,
+      "likes": 76,
+      "replies": 11,
+      "followed": true,
+      "nestSlug": "nyc"
+    },
+    {
+      "id": "p3",
+      "name": "Jet Lag Buffet",
+      "handle": "jetlagbuffet",
+      "text": "Tokyo hotel breakfast cured the flight. Illustrative yen band only.",
+      "hours": 7,
+      "likes": 98,
+      "replies": 9,
+      "followed": false,
+      "nestSlug": "tokyo"
+    },
+    {
+      "id": "p4",
+      "name": "Friday Brunch",
+      "handle": "fridaybrunch",
+      "text": "Dubai Friday brunch loyalty. Preview room chatter.",
+      "hours": 10,
+      "likes": 84,
+      "replies": 14,
+      "followed": true,
+      "nestSlug": "dubai"
+    },
+    {
+      "id": "p5",
+      "name": "K-Town Pass",
+      "handle": "ktownpass",
+      "text": "Koreatown BBQ buffet. LA nest. Not a live waitlist.",
+      "hours": 14,
+      "likes": 67,
+      "replies": 8,
+      "followed": true,
+      "nestSlug": "la"
+    },
+    {
+      "id": "p6",
+      "name": "Carvery Kid",
+      "handle": "carverykid",
+      "text": "London Sunday carvery. Illustrative pounds only.",
+      "hours": 18,
+      "likes": 55,
+      "replies": 6,
+      "followed": false,
+      "nestSlug": "london"
+    }
+  ],
+  "notifs": [
+    {
+      "id": "n1",
+      "text": "@plateloader liked your Vegas take.",
+      "time": "1h",
+      "unread": true
+    },
+    {
+      "id": "n2",
+      "text": "@jetlagbuffet mentioned you in tokyo.",
+      "time": "4h",
+      "unread": true
+    },
+    {
+      "id": "n3",
+      "text": "@fridaybrunch started following you. Dummy follow.",
+      "time": "Yesterday",
+      "unread": true
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "name": "Plate Loader",
+      "handle": "plateloader",
+      "preview": "Second pass or dessert wing?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Second pass or dessert wing?"
+        },
+        {
+          "me": true,
+          "text": "Crab first. Always."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Jet Lag Buffet",
+      "handle": "jetlagbuffet",
+      "preview": "Hotel breakfast saved me.",
+      "messages": [
+        {
+          "me": false,
+          "text": "Hotel breakfast saved me."
+        },
+        {
+          "me": true,
+          "text": "Tokyo nest knows."
+        }
+      ]
+    }
+  ],
+  "rail": {
+    "kind": "room-brief",
+    "title": "Room Brief",
+    "kicker": "On buffet",
+    "meta": "Preview \u00b7 noindex",
+    "footer": "City nests first. Price bands illustrative \u2014 not live menus.",
+    "porch": {
+      "prompt": "Where are you loading a plate?",
+      "dwellMs": 9000,
+      "options": [
+        "Vegas",
+        "Tokyo",
+        "NYC"
+      ]
+    },
+    "outbound": [
+      {
+        "tag": "Travel",
+        "headline": "City tourism boards (example)",
+        "snippet": "Curated outbound stub \u2014 verify hours yourself.",
+        "meta": "Curated",
+        "url": "https://www.visitlasvegas.com/"
+      },
+      {
+        "tag": "Note",
+        "headline": "Menus change \u2014 always confirm",
+        "snippet": "We do not scrape live prices.",
+        "meta": "Preview",
+        "url": null
+      }
+    ]
+  },
+  "nests": [
+    {
+      "slug": "vegas",
+      "label": "Vegas",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Strip and off-Strip plate loading.",
+      "rankings": [
+        {
+          "id": "vegas-top10",
+          "title": "Top buffets \u00b7 Vegas (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample Strip seafood buffet",
+              "note": "Crab legs as religion",
+              "url": null,
+              "priceHint": "US $50\u201380 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample off-Strip value buffet",
+              "note": "Locals know",
+              "url": null,
+              "priceHint": "US $25\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample brunch buffet",
+              "note": "Mimosas optional",
+              "url": null,
+              "priceHint": "US $30\u201345 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-vegas-1",
+          "subject": "Strip seafood pass",
+          "stars": 4,
+          "snippet": "Dummy plate note \u2014 illustrative price band.",
+          "region": "US"
+        },
+        {
+          "id": "r-vegas-2",
+          "subject": "Off-Strip value",
+          "stars": 5,
+          "snippet": "Stub review only.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "nyc",
+      "label": "NYC",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Borough buffets and carve stations.",
+      "rankings": [
+        {
+          "id": "nyc-top10",
+          "title": "Top buffets \u00b7 NYC (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample Midtown carve",
+              "note": "Prime rib theater",
+              "url": null,
+              "priceHint": "US $40\u201360 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample Queens value",
+              "note": "Neighborhood loyalty",
+              "url": null,
+              "priceHint": "US $20\u201335 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample brunch buffet BK",
+              "note": "Weekend crush",
+              "url": null,
+              "priceHint": "US $28\u201342 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-nyc-1",
+          "subject": "Midtown carve",
+          "stars": 4,
+          "snippet": "Illustrative steward note.",
+          "region": "US"
+        },
+        {
+          "id": "r-nyc-2",
+          "subject": "Queens value plate",
+          "stars": 5,
+          "snippet": "Dummy only.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "la",
+      "label": "LA",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Koreatown to the Valley \u2014 plate never ends.",
+      "rankings": [
+        {
+          "id": "la-top10",
+          "title": "Top buffets \u00b7 LA (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample K-town BBQ buffet",
+              "note": "Grill at the table energy",
+              "url": null,
+              "priceHint": "US $30\u201345 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample Valley Indian buffet",
+              "note": "Lunch loyalty",
+              "url": null,
+              "priceHint": "US $15\u201325 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample seafood brunch LA",
+              "note": "Coastal plate",
+              "url": null,
+              "priceHint": "US $35\u201355 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-la-1",
+          "subject": "K-town pass",
+          "stars": 5,
+          "snippet": "Stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-la-2",
+          "subject": "Valley lunch",
+          "stars": 4,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "tokyo",
+      "label": "Tokyo",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Department-store and hotel buffets.",
+      "rankings": [
+        {
+          "id": "tokyo-top10",
+          "title": "Top buffets \u00b7 Tokyo (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample hotel breakfast buffet",
+              "note": "Jet-lag salvation",
+              "url": null,
+              "priceHint": "\u00a53000\u20135000 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample depachika lunch",
+              "note": "Basement treasures",
+              "url": null,
+              "priceHint": "\u00a51500\u20132500 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample sushi conveyor + sides",
+              "note": "Hybrid plate",
+              "url": null,
+              "priceHint": "\u00a52000\u20133500 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-tokyo-1",
+          "subject": "Hotel breakfast",
+          "stars": 5,
+          "snippet": "Dummy JP note.",
+          "region": "US"
+        },
+        {
+          "id": "r-tokyo-2",
+          "subject": "Depachika lunch",
+          "stars": 4,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "bangkok",
+      "label": "Bangkok",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Hotel buffets and night-market energy.",
+      "rankings": [
+        {
+          "id": "bangkok-top10",
+          "title": "Top buffets \u00b7 Bangkok (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample riverside hotel buffet",
+              "note": "Tourist classic",
+              "url": null,
+              "priceHint": "THB 1200\u20132000 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample lunch hotel deal",
+              "note": "Weekday value",
+              "url": null,
+              "priceHint": "THB 600\u20131000 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample seafood night spread",
+              "note": "Plate loading",
+              "url": null,
+              "priceHint": "THB 800\u20131500 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-bkk-1",
+          "subject": "Riverside hotel",
+          "stars": 4,
+          "snippet": "Stub TH.",
+          "region": "US"
+        },
+        {
+          "id": "r-bkk-2",
+          "subject": "Weekday lunch",
+          "stars": 5,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "dubai",
+      "label": "Dubai",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Friday brunch and desert-city spreads.",
+      "rankings": [
+        {
+          "id": "dubai-top10",
+          "title": "Top buffets \u00b7 Dubai (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample Friday brunch buffet",
+              "note": "City ritual",
+              "url": null,
+              "priceHint": "AED 250\u2013450 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample hotel iftar-style spread",
+              "note": "Seasonal note",
+              "url": null,
+              "priceHint": "AED 180\u2013320 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample seafood Friday",
+              "note": "Crab + dessert wing",
+              "url": null,
+              "priceHint": "AED 300\u2013500 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-dxb-1",
+          "subject": "Friday brunch",
+          "stars": 5,
+          "snippet": "Dummy AE.",
+          "region": "US"
+        },
+        {
+          "id": "r-dxb-2",
+          "subject": "Seafood Friday",
+          "stars": 4,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "sao-paulo",
+      "label": "Sao Paulo",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Rod\u00edzio-adjacent and hotel buffets.",
+      "rankings": [
+        {
+          "id": "sao-paulo-top10",
+          "title": "Top buffets \u00b7 Sao Paulo (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample hotel breakfast SP",
+              "note": "Business travel default",
+              "url": null,
+              "priceHint": "BRL 120\u2013200 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample feijoada buffet Sunday",
+              "note": "Local ritual",
+              "url": null,
+              "priceHint": "BRL 80\u2013140 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample Japanese buffet SP",
+              "note": "City hybrid",
+              "url": null,
+              "priceHint": "BRL 100\u2013180 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-sp-1",
+          "subject": "Sunday feijoada",
+          "stars": 5,
+          "snippet": "Stub BR.",
+          "region": "US"
+        },
+        {
+          "id": "r-sp-2",
+          "subject": "Hotel breakfast",
+          "stars": 4,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "london",
+      "label": "London",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Carvery, hotel, and Sunday roast buffets.",
+      "rankings": [
+        {
+          "id": "london-top10",
+          "title": "Top buffets \u00b7 London (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample hotel afternoon tea buffet",
+              "note": "Tourist classic",
+              "url": null,
+              "priceHint": "\u00a340\u201370 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample Sunday carvery",
+              "note": "Roast loyalty",
+              "url": null,
+              "priceHint": "\u00a325\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample Indian buffet lunch",
+              "note": "Weekday value",
+              "url": null,
+              "priceHint": "\u00a315\u201325 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-lon-1",
+          "subject": "Sunday carvery",
+          "stars": 4,
+          "snippet": "Stub UK.",
+          "region": "US"
+        },
+        {
+          "id": "r-lon-2",
+          "subject": "Hotel tea",
+          "stars": 3,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "vegas-seafood",
+      "label": "Vegas Seafood",
+      "parent": null,
+      "kind": "city",
+      "blurb": "Crab legs, oyster bars, and Strip seafood wings.",
+      "rankings": [
+        {
+          "id": "vegas-seafood-top10",
+          "title": "Top buffets \u00b7 Vegas Seafood (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample crab-leg wing",
+              "note": "Unlimited lore",
+              "url": null,
+              "priceHint": "US $55\u201385 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample oyster + peel-and-eat",
+              "note": "Raw bar side quest",
+              "url": null,
+              "priceHint": "US $45\u201370 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample off-Strip seafood",
+              "note": "Value plate",
+              "url": null,
+              "priceHint": "US $30\u201350 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-vsea-1",
+          "subject": "Crab wing",
+          "stars": 5,
+          "snippet": "Dummy seafood.",
+          "region": "US"
+        },
+        {
+          "id": "r-vsea-2",
+          "subject": "Off-Strip value",
+          "stars": 4,
+          "snippet": "Illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    }
+  ],
+  "roomNumber": 13
+}
