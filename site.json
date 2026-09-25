@@ -4,12 +4,12 @@
   "name": "buffetchat",
   "domain": "buffetchat.com",
   "tagline": "The plate never ends.",
-  "composePlaceholder": "Where are you loading a plate?",
+  "composePlaceholder": "Where are you loading a plate — and what did the last inspection board (or honest “unknown”) teach you?",
   "earlyWelcome": false,
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room — noindex until GTM lifts. Sign in to post the first plate. Guest can browse only. Price bands are illustrative stubs, not live menus.",
+  "emptyState": "Preview room — noindex, no GTM. Sign in to post the first plate. Guest can browse only. Links only. No menus, prices, or rankings.",
   "theme": {
     "bg": "#141210",
     "surface": "#1e1a16",
@@ -38,37 +38,37 @@
     {
       "tag": "Vegas",
       "headline": "Crab-leg wing loyalty test",
-      "snippet": "Dummy Strip chatter — not a live menu.",
+      "snippet": "Strip and off-Strip plates. Check SNHD when honesty matters.",
       "meta": "Nest: vegas"
     },
     {
       "tag": "Tokyo",
       "headline": "Hotel breakfast as jet-lag cure",
-      "snippet": "Illustrative JP price bands only.",
+      "snippet": "Conveyor and hotel breakfast. No invented best-of lists.",
       "meta": "Nest: tokyo"
     },
     {
       "tag": "NYC",
       "headline": "Carve station theater",
-      "snippet": "Midtown vs boroughs — sample talk.",
+      "snippet": "Sunday spreads and borough AYCE. Grades board before hot takes.",
       "meta": "Nest: nyc"
     },
     {
       "tag": "Dubai",
       "headline": "Friday brunch ritual",
-      "snippet": "Preview room. Not a reservation feed.",
+      "snippet": "Friday brunch pace. No invented price bands.",
       "meta": "Nest: dubai"
     },
     {
       "tag": "Bangkok",
       "headline": "Riverside hotel spread",
-      "snippet": "Dummy TH price hints.",
+      "snippet": "Heat, spice, value. Unsourced rankings stay opinion.",
       "meta": "Nest: bangkok"
     },
     {
       "tag": "London",
       "headline": "Sunday carvery loyalty",
-      "snippet": "Illustrative UK bands only.",
+      "snippet": "Queue culture and value. Official FSA page is education, not a ranking.",
       "meta": "Nest: london"
     }
   ],
@@ -76,29 +76,54 @@
     {
       "tag": "City",
       "title": "Vegas",
-      "snippet": "Strip and off-Strip plate loading."
-    },
-    {
-      "tag": "City",
-      "title": "Tokyo",
-      "snippet": "Hotel and depachika buffets."
+      "snippet": "Strip and off-Strip plates. Ask: seafood night or all-around? Check SNHD when honesty matters."
     },
     {
       "tag": "City",
       "title": "NYC",
-      "snippet": "Carve stations and borough value."
+      "snippet": "Sunday spreads and borough AYCE. Ask: hotel or outer borough? Grades board before hot takes."
+    },
+    {
+      "tag": "City",
+      "title": "LA",
+      "snippet": "Valley to coast. Ask: brunch line or weeknight plate? Cite or say unknown."
+    },
+    {
+      "tag": "City",
+      "title": "Tokyo",
+      "snippet": "Conveyor, hotel breakfast, etiquette. Ask: what got a second pass?"
+    },
+    {
+      "tag": "City",
+      "title": "Bangkok",
+      "snippet": "Heat, spice, value. Ask: hotel breakfast or night run?"
     },
     {
       "tag": "City",
       "title": "Dubai",
-      "snippet": "Friday brunch energy."
+      "snippet": "Friday brunch pace. Ask: considered or tourist-trap loud?"
+    },
+    {
+      "tag": "City",
+      "title": "São Paulo",
+      "snippet": "City rhythm before the plate. Ask: what to try twice?"
+    },
+    {
+      "tag": "City",
+      "title": "London",
+      "snippet": "Queue culture + value. Ask: carvery or brunch — and why?"
+    },
+    {
+      "tag": "Nest",
+      "title": "Vegas Seafood",
+      "snippet": "Crab legs / oyster bars. Ask: worth it this time? SNHD before mythology."
     }
   ],
   "topics": [
     {
-      "tag": "Price",
-      "title": "Price bands (illustrative)",
-      "snippet": "Not live menus — stubs only."
+      "tag": "Honesty",
+      "title": "Cite or say unknown",
+      "snippet": "No menus, prices, or rankings. Inspection-day snapshot only."
     },
     {
       "tag": "Seafood",
@@ -121,71 +146,115 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed",
+  "seedNote": "ALIVE steward bank — FACT posts, links only; not mixed into the live feed",
   "seed": [
     {
       "id": "p1",
-      "name": "Plate Loader",
-      "handle": "plateloader",
-      "text": "Second pass on the crab wing. Vegas seafood nest. Dummy plate — illustrative price only.",
+      "name": "Grade Check",
+      "handle": "gradecheck",
+      "text": "NYC brunch spreads are a fight about eggs and lines — grades are not. Before you swear a place is “always clean,” open the public board and read the latest inspection, not the lobby vibe. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
       "hours": 2,
-      "likes": 120,
-      "replies": 18,
-      "followed": true,
-      "nestSlug": "vegas-seafood"
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "nyc"
     },
     {
       "id": "p2",
-      "name": "Carve Watch",
-      "handle": "carvewatch",
-      "text": "Midtown carve station is theater. NYC nest stub.",
+      "name": "Borough Plate",
+      "handle": "boroughplate",
+      "text": "Sunday hotel buffet vs outer-borough AYCE are different rooms. Same honesty rule: if you name a spot, say when you went — and if you checked the grade board, say what you saw. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
       "hours": 4,
-      "likes": 76,
-      "replies": 11,
-      "followed": true,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
       "nestSlug": "nyc"
     },
     {
       "id": "p3",
-      "name": "Jet Lag Buffet",
-      "handle": "jetlagbuffet",
-      "text": "Tokyo hotel breakfast cured the flight. Illustrative yen band only.",
-      "hours": 7,
-      "likes": 98,
-      "replies": 9,
+      "name": "Strip Honesty",
+      "handle": "striphonesty",
+      "text": "Strip and off-Strip plates both get tourist mythology. Clark County keeps a public restaurant-inspection search — use it when the “worth it” thread turns into hygiene cosplay. https://www.southernnevadahealthdistrict.org/permits-and-regulations/restaurant-inspections/restaurant-inspection-search/",
+      "hours": 6,
+      "likes": 0,
+      "replies": 0,
       "followed": false,
-      "nestSlug": "tokyo"
+      "nestSlug": "vegas"
     },
     {
       "id": "p4",
-      "name": "Friday Brunch",
-      "handle": "fridaybrunch",
-      "text": "Dubai Friday brunch loyalty. Preview room chatter.",
-      "hours": 10,
-      "likes": 84,
-      "replies": 14,
-      "followed": true,
-      "nestSlug": "dubai"
+      "name": "Shell Game",
+      "handle": "shellgame",
+      "text": "Crab legs and oyster bars are the classic Vegas argument. Joy first — then honesty: look up the establishment on SNHD before you invent a “always perfect” story. https://www.southernnevadahealthdistrict.org/permits-and-regulations/restaurant-inspections/restaurant-inspection-search/",
+      "hours": 8,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "vegas-seafood"
     },
     {
       "id": "p5",
-      "name": "K-Town Pass",
-      "handle": "ktownpass",
-      "text": "Koreatown BBQ buffet. LA nest. Not a live waitlist.",
-      "hours": 14,
-      "likes": 67,
-      "replies": 8,
-      "followed": true,
+      "name": "Line Logic",
+      "handle": "linelogic",
+      "text": "LA buffet talk is weekend lines and Valley-to-coast hops. We don’t invent hours or grades here — if you have a county board link you trust, cite it; otherwise say unknown and argue the plate you actually ate. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
+      "hours": 10,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
       "nestSlug": "la"
     },
     {
       "id": "p6",
-      "name": "Carvery Kid",
-      "handle": "carverykid",
-      "text": "London Sunday carvery. Illustrative pounds only.",
+      "name": "Second Pass",
+      "handle": "secondpass",
+      "text": "Conveyor and hotel breakfast culture rewards etiquette and a second pass — not invented “best of” lists. What did you load twice, and what did you skip without drama? https://www.southernnevadahealthdistrict.org/permits-and-regulations/restaurant-inspections/restaurant-inspection-search/",
+      "hours": 12,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "tokyo"
+    },
+    {
+      "id": "p7",
+      "name": "Heat Check",
+      "handle": "heatcheck",
+      "text": "Hotel breakfast legends and night buffet runs — heat, spice, value. Bring the plate story you lived; leave unsourced “#1 in Bangkok” at the door. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
+      "hours": 14,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "bangkok"
+    },
+    {
+      "id": "p8",
+      "name": "Friday Pace",
+      "handle": "fridaypace",
+      "text": "Friday brunch culture is pace and dress honesty as much as the spread. What made the room feel considered — and what felt tourist-trap loud? https://www.southernnevadahealthdistrict.org/permits-and-regulations/restaurant-inspections/restaurant-inspection-search/",
+      "hours": 16,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "dubai"
+    },
+    {
+      "id": "p9",
+      "name": "City Rhythm",
+      "handle": "cityrhythm",
+      "text": "Rodízio-adjacent and hotel spreads follow city rhythm before the plate. Teach the stealable pattern: when to go, what to try twice, what to skip — without inventing a menu. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
       "hours": 18,
-      "likes": 55,
-      "replies": 6,
+      "likes": 0,
+      "replies": 0,
+      "followed": false,
+      "nestSlug": "sao-paulo"
+    },
+    {
+      "id": "p10",
+      "name": "Queue Culture",
+      "handle": "queueculture",
+      "text": "Hotel carvery and brunch buffets live or die on queue culture and value checks. UK Food Standards Agency is the official starting desk for food-hygiene education — not a vibes board. https://www.gov.uk/government/organisations/food-standards-agency",
+      "hours": 20,
+      "likes": 0,
+      "replies": 0,
       "followed": false,
       "nestSlug": "london"
     }
@@ -193,19 +262,19 @@
   "notifs": [
     {
       "id": "n1",
-      "text": "@plateloader liked your Vegas take.",
+      "text": "@shellgame — crab legs or the oyster bar, then SNHD.",
       "time": "1h",
       "unread": true
     },
     {
       "id": "n2",
-      "text": "@jetlagbuffet mentioned you in tokyo.",
+      "text": "@secondpass — what got a second pass in Tokyo?",
       "time": "4h",
       "unread": true
     },
     {
       "id": "n3",
-      "text": "@fridaybrunch started following you. Dummy follow.",
+      "text": "@gradecheck — open the NYC grades board before the hot take.",
       "time": "Yesterday",
       "unread": true
     }
@@ -213,33 +282,61 @@
   "threads": [
     {
       "id": "t1",
-      "name": "Plate Loader",
-      "handle": "plateloader",
-      "preview": "Second pass or dessert wing?",
+      "name": "Grade Check",
+      "handle": "gradecheck",
+      "preview": "Before you recommend an NYC buffet, do you check the public grade board — or only the line out front?",
       "messages": [
         {
           "me": false,
-          "text": "Second pass or dessert wing?"
+          "text": "Before you recommend an NYC buffet, do you check the public grade board — or only the line out front?"
         },
         {
           "me": true,
-          "text": "Crab first. Always."
+          "text": "I open the DOHMH Open Data board first. A letter on the door is a snapshot, not a personality."
+        },
+        {
+          "me": false,
+          "text": "What did the latest inspection say that surprised you — and did it change what you’d load twice?"
         }
       ]
     },
     {
       "id": "t2",
-      "name": "Jet Lag Buffet",
-      "handle": "jetlagbuffet",
-      "preview": "Hotel breakfast saved me.",
+      "name": "Shell Game",
+      "handle": "shellgame",
+      "preview": "Crab legs worth it tonight, or is the oyster bar the real argument?",
       "messages": [
         {
           "me": false,
-          "text": "Hotel breakfast saved me."
+          "text": "Crab legs worth it tonight, or is the oyster bar the real argument?"
         },
         {
           "me": true,
-          "text": "Tokyo nest knows."
+          "text": "Worth-it is personal. Hygiene cosplay isn’t — SNHD search is free and boring in a good way."
+        },
+        {
+          "me": false,
+          "text": "What did you actually eat twice last time, and did the inspection record match the room’s flex?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "City Rhythm",
+      "handle": "cityrhythm",
+      "preview": "Which city seat are you in, and what’s one thing you’d teach a first-timer without quoting a fake menu?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Which city seat are you in, and what’s one thing you’d teach a first-timer without quoting a fake menu?"
+        },
+        {
+          "me": true,
+          "text": "Tokyo etiquette and Vegas seafood are different rooms. Second pass > invented Top 10."
+        },
+        {
+          "me": false,
+          "text": "What did you skip on purpose — and would you skip it again?"
         }
       ]
     }
@@ -247,11 +344,11 @@
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
-    "kicker": "On buffet",
-    "meta": "Preview · noindex",
-    "footer": "City nests first. Price bands illustrative — not live menus.",
+    "kicker": "On buffet · ≠buffett",
+    "meta": "Preview · noindex · no GTM",
+    "footer": "AYCE food culture. Not Buffett. Not a casino brand. Free boards: NYC grades · SNHD Vegas.",
     "porch": {
-      "prompt": "Where are you loading a plate?",
+      "prompt": "Where are you loading a plate — and what did the last inspection board (or honest “unknown”) teach you?",
       "dwellMs": 9000,
       "options": [
         "Vegas",
@@ -282,24 +379,9 @@
       "label": "Vegas",
       "parent": null,
       "kind": "city",
-      "blurb": "Strip and off-Strip plate loading.",
+      "blurb": "Strip and off-Strip plates. Ask: seafood night or all-around? Check SNHD when honesty matters.",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-vegas-1",
-          "subject": "Strip seafood pass",
-          "stars": 4,
-          "snippet": "Dummy plate note — illustrative price band.",
-          "region": "US"
-        },
-        {
-          "id": "r-vegas-2",
-          "subject": "Off-Strip value",
-          "stars": 5,
-          "snippet": "Stub review only.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -307,24 +389,9 @@
       "label": "NYC",
       "parent": null,
       "kind": "city",
-      "blurb": "Borough buffets and carve stations.",
+      "blurb": "Sunday spreads and borough AYCE. Ask: hotel or outer borough? Grades board before hot takes.",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-nyc-1",
-          "subject": "Midtown carve",
-          "stars": 4,
-          "snippet": "Illustrative steward note.",
-          "region": "US"
-        },
-        {
-          "id": "r-nyc-2",
-          "subject": "Queens value plate",
-          "stars": 5,
-          "snippet": "Dummy only.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -332,24 +399,9 @@
       "label": "LA",
       "parent": null,
       "kind": "city",
-      "blurb": "Koreatown to the Valley — plate never ends.",
+      "blurb": "Valley to coast. Ask: brunch line or weeknight plate? Cite or say unknown.",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-la-1",
-          "subject": "K-town pass",
-          "stars": 5,
-          "snippet": "Stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-la-2",
-          "subject": "Valley lunch",
-          "stars": 4,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -357,24 +409,9 @@
       "label": "Tokyo",
       "parent": null,
       "kind": "city",
-      "blurb": "Department-store and hotel buffets.",
+      "blurb": "Conveyor, hotel breakfast, etiquette. Ask: what got a second pass?",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-tokyo-1",
-          "subject": "Hotel breakfast",
-          "stars": 5,
-          "snippet": "Dummy JP note.",
-          "region": "US"
-        },
-        {
-          "id": "r-tokyo-2",
-          "subject": "Depachika lunch",
-          "stars": 4,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -382,24 +419,9 @@
       "label": "Bangkok",
       "parent": null,
       "kind": "city",
-      "blurb": "Hotel buffets and night-market energy.",
+      "blurb": "Heat, spice, value. Ask: hotel breakfast or night run?",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-bkk-1",
-          "subject": "Riverside hotel",
-          "stars": 4,
-          "snippet": "Stub TH.",
-          "region": "US"
-        },
-        {
-          "id": "r-bkk-2",
-          "subject": "Weekday lunch",
-          "stars": 5,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -407,49 +429,19 @@
       "label": "Dubai",
       "parent": null,
       "kind": "city",
-      "blurb": "Friday brunch and desert-city spreads.",
+      "blurb": "Friday brunch pace. Ask: considered or tourist-trap loud?",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-dxb-1",
-          "subject": "Friday brunch",
-          "stars": 5,
-          "snippet": "Dummy AE.",
-          "region": "US"
-        },
-        {
-          "id": "r-dxb-2",
-          "subject": "Seafood Friday",
-          "stars": 4,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
       "slug": "sao-paulo",
-      "label": "Sao Paulo",
+      "label": "São Paulo",
       "parent": null,
       "kind": "city",
-      "blurb": "Rodízio-adjacent and hotel buffets.",
+      "blurb": "City rhythm before the plate. Ask: what to try twice?",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-sp-1",
-          "subject": "Sunday feijoada",
-          "stars": 5,
-          "snippet": "Stub BR.",
-          "region": "US"
-        },
-        {
-          "id": "r-sp-2",
-          "subject": "Hotel breakfast",
-          "stars": 4,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
@@ -457,49 +449,19 @@
       "label": "London",
       "parent": null,
       "kind": "city",
-      "blurb": "Carvery, hotel, and Sunday roast buffets.",
+      "blurb": "Queue culture + value. Ask: carvery or brunch — and why?",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-lon-1",
-          "subject": "Sunday carvery",
-          "stars": 4,
-          "snippet": "Stub UK.",
-          "region": "US"
-        },
-        {
-          "id": "r-lon-2",
-          "subject": "Hotel tea",
-          "stars": 3,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     },
     {
       "slug": "vegas-seafood",
       "label": "Vegas Seafood",
-      "parent": null,
+      "parent": "vegas",
       "kind": "city",
-      "blurb": "Crab legs, oyster bars, and Strip seafood wings.",
+      "blurb": "Crab legs / oyster bars. Ask: worth it this time? SNHD before mythology.",
       "rankings": [],
-      "reviews": [
-        {
-          "id": "r-vsea-1",
-          "subject": "Crab wing",
-          "stars": 5,
-          "snippet": "Dummy seafood.",
-          "region": "US"
-        },
-        {
-          "id": "r-vsea-2",
-          "subject": "Off-Strip value",
-          "stars": 4,
-          "snippet": "Illustrative.",
-          "region": "US"
-        }
-      ],
+      "reviews": [],
       "railPins": []
     }
   ],
