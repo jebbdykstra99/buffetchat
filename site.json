@@ -261,18 +261,18 @@
     },
     "outbound": [
       {
-        "tag": "Travel",
-        "headline": "City tourism boards (example)",
-        "snippet": "Curated outbound stub — verify hours yourself.",
-        "meta": "Curated",
-        "url": "https://www.visitlasvegas.com/"
+        "tag": "Board",
+        "headline": "NYC grades board",
+        "url": "https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/",
+        "snippet": "Official NYC DOHMH Restaurant Inspection Results on NYC Open Data. Not a menu; not a scrape.",
+        "meta": "Official · board"
       },
       {
-        "tag": "Note",
-        "headline": "Menus change — always confirm",
-        "snippet": "We do not scrape live prices.",
-        "meta": "Preview",
-        "url": null
+        "tag": "Board",
+        "headline": "Vegas inspection search",
+        "url": "https://www.southernnevadahealthdistrict.org/permits-and-regulations/restaurant-inspections/restaurant-inspection-search/",
+        "snippet": "Official SNHD restaurant inspection search (Clark County). Inspection-day snapshot only.",
+        "meta": "Official · board"
       }
     ]
   },
