@@ -465,5 +465,93 @@
       "railPins": []
     }
   ],
-  "roomNumber": 13
+  "roomNumber": 13,
+  "taxonomy": {
+    "version": 1,
+    "name": "All-you-can-eat",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "chinese",
+        "label": "Chinese buffet",
+        "kind": "theme",
+        "blurb": "Classic format",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "indian",
+        "label": "Indian buffet",
+        "kind": "theme",
+        "blurb": "Thali / buffet",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "bbq",
+        "label": "BBQ buffet",
+        "kind": "theme",
+        "blurb": "Smoke & sides",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "seafood",
+        "label": "Seafood buffet",
+        "kind": "theme",
+        "blurb": "Coastal spreads",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "brunch",
+        "label": "Brunch buffet",
+        "kind": "theme",
+        "blurb": "Weekend spreads",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "price",
+        "label": "Price & value",
+        "kind": "theme",
+        "blurb": "What you pay",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "etiquette",
+        "label": "Etiquette",
+        "kind": "theme",
+        "blurb": "Line culture",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "regional",
+        "label": "Regional picks",
+        "kind": "theme",
+        "blurb": "City lists",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "chinese",
+      "indian",
+      "brunch",
+      "price"
+    ],
+    "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
+  },
+  "v": 1,
+  "cacheBust": 1
 }
