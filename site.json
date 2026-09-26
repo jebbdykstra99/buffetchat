@@ -379,90 +379,90 @@
       "label": "Vegas",
       "parent": null,
       "kind": "city",
-      "blurb": "Strip and off-Strip plates. Ask: seafood night or all-around? Check SNHD when honesty matters.",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "blurb": "Strip and off-Strip plates; classic buffet vs Chinatown AYCE.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "vegas"
     },
     {
       "slug": "nyc",
       "label": "NYC",
       "parent": null,
       "kind": "city",
-      "blurb": "Sunday spreads and borough AYCE. Ask: hotel or outer borough? Grades board before hot takes.",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "blurb": "Borough AYCE + hotel brunch — formats over Vegas-style trough.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "nyc"
     },
     {
       "slug": "la",
       "label": "LA",
       "parent": null,
       "kind": "city",
-      "blurb": "Valley to coast. Ask: brunch line or weeknight plate? Cite or say unknown.",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "blurb": "Valley-to-coast; weekend lines and KBBQ-adjacent AYCE.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "la"
     },
     {
       "slug": "tokyo",
       "label": "Tokyo",
       "parent": null,
       "kind": "city",
-      "blurb": "Conveyor, hotel breakfast, etiquette. Ask: what got a second pass?",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "blurb": "Conveyor, hotel breakfast, depachika etiquette — second pass talk.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "tokyo"
     },
     {
-      "slug": "bangkok",
-      "label": "Bangkok",
+      "slug": "seafood",
+      "label": "Seafood",
       "parent": null,
-      "kind": "city",
-      "blurb": "Heat, spice, value. Ask: hotel breakfast or night run?",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "kind": "format",
+      "blurb": "Crab / oyster / seafood AYCE across cities — joy first, honesty second.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "seafood"
     },
     {
-      "slug": "dubai",
-      "label": "Dubai",
+      "slug": "korean-bbq",
+      "label": "Korean BBQ",
       "parent": null,
-      "kind": "city",
-      "blurb": "Friday brunch pace. Ask: considered or tourist-trap loud?",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "kind": "format",
+      "blurb": "Unlimited grill tables — not a chain room, not a menu dump.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "korean-bbq"
     },
     {
-      "slug": "sao-paulo",
-      "label": "São Paulo",
+      "slug": "brunch",
+      "label": "Brunch",
       "parent": null,
-      "kind": "city",
-      "blurb": "City rhythm before the plate. Ask: what to try twice?",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "kind": "format",
+      "blurb": "Hotel / Sunday spreads; cite the day you paid if you quote a band.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "brunch"
     },
     {
-      "slug": "london",
-      "label": "London",
+      "slug": "grades",
+      "label": "Grades",
       "parent": null,
-      "kind": "city",
-      "blurb": "Queue culture + value. Ask: carvery or brunch — and why?",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "kind": "honesty",
+      "blurb": "Public inspection honesty — CLEARED NYC grades + SNHD Vegas boards.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "grades"
     },
     {
-      "slug": "vegas-seafood",
-      "label": "Vegas Seafood",
-      "parent": "vegas",
-      "kind": "city",
-      "blurb": "Crab legs / oyster bars. Ask: worth it this time? SNHD before mythology.",
-      "rankings": [],
-      "reviews": [],
-      "railPins": []
+      "slug": "price",
+      "label": "Price & value",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "What you paid, when, and whether it was worth a second pass.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "price"
     }
   ],
   "roomNumber": 13,
