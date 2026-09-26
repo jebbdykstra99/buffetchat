@@ -1,0 +1,87 @@
+{
+  "siteId": "buffet",
+  "domain": "buffetchat.com",
+  "taxonomyName": "All-you-can-eat",
+  "topics": [
+    {
+      "id": "chinese",
+      "label": "Chinese buffet",
+      "kind": "theme",
+      "blurb": "Classic format",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "indian",
+      "label": "Indian buffet",
+      "kind": "theme",
+      "blurb": "Thali / buffet",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "bbq",
+      "label": "BBQ buffet",
+      "kind": "theme",
+      "blurb": "Smoke & sides",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "seafood",
+      "label": "Seafood buffet",
+      "kind": "theme",
+      "blurb": "Coastal spreads",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "brunch",
+      "label": "Brunch buffet",
+      "kind": "theme",
+      "blurb": "Weekend spreads",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "price",
+      "label": "Price & value",
+      "kind": "theme",
+      "blurb": "What you pay",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "etiquette",
+      "label": "Etiquette",
+      "kind": "theme",
+      "blurb": "Line culture",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "regional",
+      "label": "Regional picks",
+      "kind": "theme",
+      "blurb": "City lists",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    }
+  ],
+  "topicCount": 8,
+  "defaultWatchlist": [
+    "chinese",
+    "indian",
+    "brunch",
+    "price"
+  ],
+  "notes": "adminSeed topics are factory pre-populated. Users may unfollow (remove from their list) or follow more from the full taxonomy. Admins may retire topics (status=retired) or add new ones; user lists stay editable."
+}
