@@ -1,6 +1,5 @@
 {
   "siteId": "buffet",
-  "redditSr": "buffetchat",
   "name": "buffetchat",
   "domain": "buffetchat.com",
   "tagline": "The plate never ends.",
@@ -553,5 +552,6 @@
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "redditCrosspost": false
 }
