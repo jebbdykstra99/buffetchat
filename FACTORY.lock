@@ -4,10 +4,11 @@
   "room": "buffetchat",
   "siteId": "buffet",
   "files": {
-    "factory.js": "7466eefc88f4103dcc159bcea5a788d35dc4b1402ffba14b270f3ede99b610d0",
+    "factory.js": "5db3afa908549bd776b862b44582f192bbeafaa35cf80941b5243015a38ec734",
     "styles.css": "b0bb532f5d61117571b53fcfe6761324cd7f50655afd30c4a7eec7f30e4795d3"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
-  "stampedAt": "2026-10-13T13:47:07Z"
+  "stampedAt": "2026-10-19T14:00:00Z",
+  "masterRef": "subx-factory factory/v1.0.0 @ aaf157f"
 }
