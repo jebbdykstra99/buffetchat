@@ -3,12 +3,12 @@
   "name": "buffetchat",
   "domain": "buffetchat.com",
   "tagline": "The plate never ends.",
-  "composePlaceholder": "Where are you loading a plate — and what did the last inspection board (or honest “unknown”) teach you?",
+  "composePlaceholder": "Where are you loading a plate, and what did the last inspection board (or honest “unknown”) teach you?",
   "earlyWelcome": false,
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room — noindex, no GTM. Sign in to post the first plate. Guest can browse only. Links only. No menus, prices, or rankings.",
+  "emptyState": "Preview room: noindex, no GTM. Sign in to post the first plate. Guest can browse only. Links only. No menus, prices, or rankings.",
   "theme": {
     "bg": "#141210",
     "surface": "#1e1a16",
@@ -110,7 +110,7 @@
     {
       "tag": "City",
       "title": "London",
-      "snippet": "Queue culture + value. Ask: carvery or brunch — and why?"
+      "snippet": "Queue culture + value. Ask: carvery or brunch, and why?"
     },
     {
       "tag": "Nest",
@@ -145,7 +145,7 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "ALIVE steward bank — FACT posts, links only; not mixed into the live feed",
+  "seedNote": "ALIVE steward bank: FACT posts, links only; not mixed into the live feed",
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
@@ -153,7 +153,7 @@
     "meta": "Preview · noindex · no GTM",
     "footer": "AYCE food culture. Not Buffett. Not a casino brand. Free boards: NYC grades · SNHD Vegas.",
     "porch": {
-      "prompt": "Where are you loading a plate — and what did the last inspection board (or honest “unknown”) teach you?",
+      "prompt": "Where are you loading a plate, and what did the last inspection board (or honest “unknown”) teach you?",
       "dwellMs": 9000,
       "options": [
         "Vegas",
@@ -194,7 +194,7 @@
       "label": "NYC",
       "parent": null,
       "kind": "city",
-      "blurb": "Borough AYCE + hotel brunch — formats over Vegas-style trough.",
+      "blurb": "Borough AYCE + hotel brunch: formats over Vegas-style trough.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "nyc"
@@ -214,7 +214,7 @@
       "label": "Tokyo",
       "parent": null,
       "kind": "city",
-      "blurb": "Conveyor, hotel breakfast, depachika etiquette — second pass talk.",
+      "blurb": "Conveyor, hotel breakfast, depachika etiquette: second pass talk.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "tokyo"
@@ -224,7 +224,7 @@
       "label": "Seafood",
       "parent": null,
       "kind": "format",
-      "blurb": "Crab / oyster / seafood AYCE across cities — joy first, honesty second.",
+      "blurb": "Crab / oyster / seafood AYCE across cities: joy first, honesty second.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "seafood"
@@ -234,7 +234,7 @@
       "label": "Korean BBQ",
       "parent": null,
       "kind": "format",
-      "blurb": "Unlimited grill tables — not a chain room, not a menu dump.",
+      "blurb": "Unlimited grill tables, not a chain room, not a menu dump.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "korean-bbq"
@@ -254,7 +254,7 @@
       "label": "Grades",
       "parent": null,
       "kind": "honesty",
-      "blurb": "Public inspection honesty — CLEARED NYC grades + SNHD Vegas boards.",
+      "blurb": "Public inspection honesty: CLEARED NYC grades + SNHD Vegas boards.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "grades"
