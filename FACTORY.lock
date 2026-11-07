@@ -5,7 +5,7 @@
   "siteId": "buffet",
   "files": {
     "factory.js": "e3a8df039c327664679121a12213a0d5018a3fc64fac4722e275e2ea72c1e4ae",
-    "styles.css": "ece6f4d7862fd3843a87d44d5e0020cc448f6b0cef5292375f1e12eb59e117a3"
+    "styles.css": "89b6f56a6962741ca5c0e6052505d73431616dae19bebd70868a17852942f58b"
   },
   "keepFiles": [
     "takedown.js"
