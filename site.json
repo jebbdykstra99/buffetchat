@@ -6,9 +6,9 @@
   "composePlaceholder": "Where are you loading a plate, and what did the last inspection board (or honest “unknown”) teach you?",
   "earlyWelcome": false,
   "dms": true,
-  "preview": true,
-  "robots": "noindex,nofollow",
-  "emptyState": "Preview room: noindex, no GTM. Sign in to post the first plate. Guest can browse only. Links only. No menus, prices, or rankings.",
+  "preview": false,
+  "robots": "index,follow",
+  "emptyState": "Public beta. No GTM. Sign in to post the first plate. Guest can browse only. Links only. No menus, prices, or rankings.",
   "theme": {
     "bg": "#141210",
     "surface": "#1e1a16",
@@ -150,7 +150,7 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On buffet · ≠buffett",
-    "meta": "Preview · noindex · no GTM",
+    "meta": "Beta · no GTM",
     "footer": "AYCE food culture. Not Buffett. Not a casino brand. Free boards: NYC grades · SNHD Vegas.",
     "porch": {
       "prompt": "Where are you loading a plate, and what did the last inspection board (or honest “unknown”) teach you?",
