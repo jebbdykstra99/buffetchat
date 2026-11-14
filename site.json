@@ -146,6 +146,27 @@
     "maxBytes": 8000000
   },
   "seedNote": "ALIVE steward bank: FACT posts, links only; not mixed into the live feed",
+  "featured": {
+    "featuredDays": 3,
+    "maxPinned": 3,
+    "articleMinChars": 600,
+    "label": "Our articles",
+    "handles": [
+      "queueculture",
+      "secondpass",
+      "platenever",
+      "heatcheck",
+      "gradecheck",
+      "cityrhythm",
+      "linelogic",
+      "brunchwire",
+      "grillcount",
+      "fridaypace",
+      "shellgame",
+      "striphonesty",
+      "boroughplate"
+    ]
+  },
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
